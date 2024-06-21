@@ -1,0 +1,85 @@
+/*אופציה לעיצוב לפי שם מחלקה 
+.error{
+    color:red;
+} */
+
+/* אופציה לעצב לפי שם מחלקה שנותנים לטאג
+p.error{
+    color:red;
+} */
+
+/* אופציית עיצוב של טאג עם אותה שם מחלקה
+p.success{
+    color:rgb(34, 206, 34);
+} */
+
+/* אופציה לעיצוב טאג אשר יש לו כבר עיצוב לפי מחלקה על ידי שם אחד שלו וזה עיצוב ייחוד לפי שתי המחלקות
+p.success.feedback{
+    border: 1px dashed rgb(8, 9, 17);
+} */
+
+/* עיצוב טאג לפי ה id
+#content{
+    background-color: #ebebeb;
+    padding: 20px;
+} */
+
+/* עיצוב של טאגים לפי באיזה טאג הם נמצאים
+div p{
+    color: purple
+} */
+
+/* עיצוב טאג לפי המחלקה שלו בתוך טאג מסוים
+div .error{
+    color: red;
+} */
+
+/* צובע את כל מי שיש לו לו a herf
+a[href]{
+    background-color: aqua;
+} */
+
+/* צובע כל מי שעם אותו קישור
+a[href="index.html"]{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* מעצב את הטאג לפי אם המילה קיימת בכתובת
+a[href*="index"]{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+/* מעצב את הטאג לפי הסיומת של הכתובת
+a[href$=".html"]{
+    background-color: red;
+    border: 2px solid blue;
+} */
+
+/* חלק מהעיצוב עובר בירושה למי שבאותו טאג וחלק לא */
+ div {
+    color:lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+ }
+ 
+ /*אם הטג הזה נמצא בתוך טאג אחר אז ניתן לתת לו את אותו עיצוב על ידי ירושה ופשוט רושמים שזה מקבל בירושה באופן מפורש, נין להתגבר על ירושה אוטומטית על ידי דריסה ולהגדיר עיצוב משל עצמך */
+ div p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+ }
+ /* ניתן להגדיר באופן יותר מפורש שאנחנו רוצים לעצב לפי זה אז פשוט רושמים גם את האבא של עיצוב שבו אנו מעצבים */
+
+ /* בעיצוב אנחנו לוקחים את מה שמוגדר אחרון למטה בדף */
+ p {
+    color: orange;
+ }

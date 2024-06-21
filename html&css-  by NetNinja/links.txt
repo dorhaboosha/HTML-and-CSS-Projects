@@ -1,0 +1,11 @@
+1. רשימה של סוגי קלטים ב- https://www.w3schools.com/html/html_form_input_types.asp    (שיעור 3)
+
+2. סוגים של פונטים עם CSS לינק- https://www.w3schools.com/cssref/css_websafe_fonts.php (שיעור 4)
+
+3. קישור למאמר של css הלינק- https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade
+
+4. לינק לקצת מושגים מגרסה 5 של html לינק- https://www.w3schools.com/html/html5_semantic_elements.asp ( שיעור 6)
+
+5. a list of all pseudo_elemntes and classes in CSS- https://www.w3schools.com/css/css_pseudo_elements.asp (שיעור 9)
+
+6. explain how to fit the page to all devices- https://www.w3schools.com/css/css_rwd_viewport.asp (שיעור 10)
